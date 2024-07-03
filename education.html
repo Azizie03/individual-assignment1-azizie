@@ -1,0 +1,93 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color: #4c7581;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /
+}
+
+
+.column.side {
+  width: 25%;
+  text-align: center;
+}
+
+.column.middle {
+  width: 30%;
+  text-align: center;
+}
+.column.middle P{
+  text-align: center;
+}
+.column.middle img {
+   padding-left: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" href="CSS/ass.css">
+</head>
+<body>
+
+
+<div class="header">
+  <h2>EDUCATION</h2>
+</div>
+
+<div class="topnav">
+  <a href="ass.html">HOME</a> 
+  <a href="education.html">EDUCATION</a>
+  <a href="biodata.html">BIODATA</a>
+  <a href="gallery.html">GALLERY</a>
+  <a href="experience.html">EXPERIENCE</a>
+</div>
+
+<div class="row">
+  <div class="column side" > 
+    <img src="PICTURE/smkam.jpeg" alt="Jiji"> 
+  <p>2016 - 2021</p>
+</div>
+  <div class="column middle" >
+     <img src="PICTURE/kmpp.jpeg" alt="Jiji"> 
+   <p>2021 - 2022</p> 
+    </div>
+  <div class="column side" >
+    <img src="PICTURE/th.jpeg" alt="Jiji">
+  <p>2022 - now</p>
+</div>
+</div>
+
+
+</body>
+</html>
+

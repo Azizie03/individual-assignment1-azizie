@@ -1,0 +1,89 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+  background-color: #4c7581;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /
+}
+
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+.column.middle P{
+  text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+<link rel="stylesheet" href="CSS/ass.css">
+</head>
+<body>
+
+
+<div class="header">
+  <h2>BIODATA</h2>
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a> 
+  <a href="education.html">EDUCATION</a>
+  <a href="biodata.html">BIODATA</a>
+  <a href="gallery.html">GALLERY</a>
+  <a href="experience.html">EXPERIENCE</a>
+</div>
+
+<div class="row">
+  <div class="column side" > <img src="PICTURE/jiji 1.jpg" alt="Jiji"></div>
+  <div class="column middle" >
+    <p>Name : AHMAD AZIZIE BIN NOR AZIMAN</p><br>
+      <P>Age : 21 years old</P><br>
+      <P>Address : 371 KAMPUNG SELISING, 16810 PASIR PUTEH, KELANTAN</P><br>
+      <P>Phone number : 011-69592317</P><br>
+      <P>Height :179 cm</P><br>
+      <P>Weight : 60 kg</P><br>
+
+
+  </div>
+  <div class="column side" > <img src="PICTURE/jiji 2.jpg" alt="Jiji"></div>
+</div>
+
+
+</body>
+</html>
+
